@@ -1,0 +1,33 @@
+.flashcard-list {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Vazir', sans-serif;
+  direction: rtl;
+}
+
+.flashcard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.no-flashcards {
+  font-size: 1.2rem;
+  color: #e63946;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .flashcard-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .flashcard-grid {
+    grid-template-columns: 1fr;
+  }
+}
