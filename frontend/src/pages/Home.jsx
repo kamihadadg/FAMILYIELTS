@@ -38,7 +38,7 @@ const Home = () => {
       <h1>فلش‌کارت‌های آیلتس</h1>
       {user ? (
         <>
-          <ProgressDashboard />
+          {/* <ProgressDashboard /> */}
           <FlashcardList />
         </>
       ) : (

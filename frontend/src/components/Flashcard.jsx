@@ -1,18 +1,8 @@
 import { useState } from 'react';
 import '../styles/Flashcard.css';
 
-const Flashcard = ({ flashcard, onScore, onPrevious, onNext, isFirst, isLast, onRefresh }) => {
+const Flashcard = ({ flashcard, onArchive, onKeep, onCorrect, onIncorrect, isQuizMode }) => {
   const [isFlipped, setIsFlipped] = useState(false);
-
-  const handleScore = (score) => {
-    console.log(`Scoring flashcard ${flashcard.id} with score ${score}`);
-    onScore(flashcard.id, score);
-    setIsFlipped(false);
-    if (onRefresh) {
-      console.log('Calling onRefresh after scoring');
-      onRefresh();
-    }
-  };
 
   const speakPronunciation = () => {
     if (!window.speechSynthesis) {
@@ -28,9 +18,6 @@ const Flashcard = ({ flashcard, onScore, onPrevious, onNext, isFirst, isLast, on
     const voices = window.speechSynthesis.getVoices();
     const voice = voices.find(v => v.lang.includes('en-US') && v.name.includes('Female')) || voices[0];
     if (voice) utterance.voice = voice;
-
-    utterance.onend = () => console.log('Pronunciation finished');
-    utterance.onerror = (event) => console.error('Speech synthesis error:', event.error);
 
     window.speechSynthesis.speak(utterance);
   };
@@ -49,30 +36,36 @@ const Flashcard = ({ flashcard, onScore, onPrevious, onNext, isFirst, isLast, on
             <p>{flashcard.pronunciation}</p>
           </div>
           <div className="flashcard-back">
-            <h2>{flashcard.word}</h2>
             <p><strong>ترجمه:</strong> {flashcard.translation}</p>
             <p><strong>معنی:</strong> {flashcard.meaning}</p>
             <p><strong>مثال:</strong> {flashcard.example}</p>
             <p><strong>نکته:</strong> {flashcard.tip}</p>
             <p><strong>دسته‌بندی:</strong> {flashcard.category}</p>
-            <p><strong>وضعیت:</strong> {flashcard.status}</p>
+            <p><strong>وضعیت:</strong> {flashcard.is_archived ? 'بایگانی‌شده' : 'بایگانی‌نشده'}</p>
           </div>
         </div>
       </div>
       {isFlipped && (
         <div className="score-buttons">
-          <button onClick={() => handleScore(0)} className="score-button again">
-            دوباره
-          </button>
-          <button onClick={() => handleScore(1)} className="score-button hard">
-            سخت
-          </button>
-          <button onClick={() => handleScore(2)} className="score-button good">
-            متوسط
-          </button>
-          <button onClick={() => handleScore(3)} className="score-button easy">
-            آسان
-          </button>
+          {isQuizMode ? (
+            <>
+              <button onClick={() => onCorrect(flashcard.id)} className="score-button correct">
+                درست
+              </button>
+              <button onClick={() => onIncorrect(flashcard.id)} className="score-button incorrect">
+                غلط
+              </button>
+            </>
+          ) : (
+            <>
+              <button onClick={() => onArchive(flashcard.id)} className="score-button archive">
+                بایگانی (یاد گرفتم)
+              </button>
+              <button onClick={() => onKeep(flashcard.id)} className="score-button keep">
+                باقی بماند
+              </button>
+            </>
+          )}
         </div>
       )}
     </div>
