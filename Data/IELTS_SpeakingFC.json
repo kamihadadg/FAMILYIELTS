@@ -1,0 +1,702 @@
+[
+    {
+      "id": 1,
+      "front": {
+        "word": "obviously",
+        "pronunciation": "/ˈɒb.vi.əs.li/"
+      },
+      "back": {
+        "translation": "بدیهی است",
+        "meaning": "برای تأکید روی چیزی که واضح یا قابل انتظاره.",
+        "example": "Obviously, living in a big city has its challenges.",
+        "tip": "سعی کن از این عبارت در Part 3 برای تأکید روی نظرت استفاده کنی. حالا یه جمله با 'obviously' درباره محل زندگیت بگو!"
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 2,
+      "front": {
+        "word": "actually",
+        "pronunciation": "/ˈæk.tʃu.ə.li/"
+      },
+      "back": {
+        "translation": "در واقع",
+        "meaning": "برای اصلاح یا توضیح چیزی که ممکنه غافلگیرکننده باشه.",
+        "example": "Actually, I prefer working from home.",
+        "tip": "با یکی از اعضای خانواده درباره یه ترجیح غیرمنتظره با 'actually' صحبت کن!"
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 3,
+      "front": {
+        "word": "you know",
+        "pronunciation": "/juː noʊ/"
+      },
+      "back": {
+        "translation": "میدونی",
+        "meaning": "برای پر کردن مکث یا جلب توجه مخاطب.",
+        "example": "I love traveling, you know, it broadens your mind.",
+        "tip": "زیاد ازش استفاده نکن! یه جمله درباره سرگرمی‌ت با 'you know' بگو."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 4,
+      "front": {
+        "word": "like",
+        "pronunciation": "/laɪk/"
+      },
+      "back": {
+        "translation": "مثل اینکه",
+        "meaning": "برای پر کردن مکث یا غیررسمی کردن صحبت.",
+        "example": "It’s, like, really hard to find a good job these days.",
+        "tip": "فقط در Part 1 یا مکالمات غیررسمی استفاده کن. درباره یه چالش روزمره با 'like' حرف بزن!"
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 5,
+      "front": {
+        "word": "basically",
+        "pronunciation": "/ˈbeɪ.sɪ.kli/"
+      },
+      "back": {
+        "translation": "اساساً",
+        "meaning": "برای خلاصه کردن یا ساده کردن یه ایده.",
+        "example": "Basically, I think education should be free.",
+        "tip": "یه نظر درباره یه موضوع اجتماعی با 'basically' خلاصه کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 6,
+      "front": {
+        "word": "to be honest",
+        "pronunciation": "/tə bi ˈɒn.ɪst/"
+      },
+      "back": {
+        "translation": "راستش رو بخوای",
+        "meaning": "برای بیان نظر صادقانه یا شخصی.",
+        "example": "To be honest, I don’t enjoy crowded places.",
+        "tip": "درباره یه چیزی که واقعاً دوست نداری با 'to be honest' بگو."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 7,
+      "front": {
+        "word": "well",
+        "pronunciation": "/wel/"
+      },
+      "back": {
+        "translation": "خب",
+        "meaning": "برای شروع پاسخ یا خریدن زمان برای فکر کردن.",
+        "example": "Well, it depends on the situation, doesn’t it?",
+        "tip": "یه سؤال آیلتس (مثل 'Where are you from?') رو با 'well' جواب بده."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 8,
+      "front": {
+        "word": "I mean",
+        "pronunciation": "/aɪ miːn/"
+      },
+      "back": {
+        "translation": "منظورم اینه",
+        "meaning": "برای توضیح یا اصلاح چیزی که گفتی.",
+        "example": "I mean, technology makes life easier, right?",
+        "tip": "یه ایده رو با 'I mean' توضیح بده، مثلاً درباره تکنولوژی."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 9,
+      "front": {
+        "word": "kind of",
+        "pronunciation": "/kaɪnd əv/"
+      },
+      "back": {
+        "translation": "یه جورایی",
+        "meaning": "برای نشان دادن تردید یا غیرقطعی بودن.",
+        "example": "I’m kind of interested in learning new languages.",
+        "tip": "درباره یه سرگرمی که 'یه جورایی' دوست داری با 'kind of' بگو."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 10,
+      "front": {
+        "word": "sort of",
+        "pronunciation": "/sɔːrt əv/"
+      },
+      "back": {
+        "translation": "تقریباً",
+        "meaning": "مشابه 'kind of' برای غیرقطعی بودن.",
+        "example": "It’s sort of difficult to balance work and family.",
+        "tip": "یه موقعیت سخت رو با 'sort of' توصیف کن."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 11,
+      "front": {
+        "word": "as far as I’m concerned",
+        "pronunciation": "/æz fɑːr æz aɪm kənˈsɜːrnd/"
+      },
+      "back": {
+        "translation": "تا جایی که به من مربوط می‌شه",
+        "meaning": "برای بیان نظر شخصی قوی.",
+        "example": "As far as I’m concerned, health is the top priority.",
+        "tip": "یه اولویت تو زندگیت رو با این عبارت بگو."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 12,
+      "front": {
+        "word": "in my opinion",
+        "pronunciation": "/ɪn maɪ əˈpɪn.jən/"
+      },
+      "back": {
+        "translation": "به نظر من",
+        "meaning": "برای معرفی نظر شخصی.",
+        "example": "In my opinion, cities are better than villages.",
+        "tip": "یه مقایسه (مثل شهر vs روستا) با 'in my opinion' انجام بده."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 13,
+      "front": {
+        "word": "frankly",
+        "pronunciation": "/ˈfræŋk.li/"
+      },
+      "back": {
+        "translation": "صادقانه",
+        "meaning": "برای بیان نظر صریح و صادقانه.",
+        "example": "Frankly, I think social media is overrated.",
+        "tip": "یه نظر جنجالی با 'frankly' بگو و با بقیه بحث کن!"
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 14,
+      "front": {
+        "word": "honestly",
+        "pronunciation": "/ˈɒn.ɪst.li/"
+      },
+      "back": {
+        "translation": "راستش",
+        "meaning": "برای تأکید روی صداقت در صحبت.",
+        "example": "Honestly, I haven’t thought about that before.",
+        "tip": "یه سؤال آیلتس که جوابش رو نمی‌دونی با 'honestly' جواب بده."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 15,
+      "front": {
+        "word": "by the way",
+        "pronunciation": "/baɪ ðə weɪ/"
+      },
+      "back": {
+        "translation": "راستی",
+        "meaning": "برای معرفی یه موضوع جانبی.",
+        "example": "By the way, have you tried the new café?",
+        "tip": "یه موضوع فرعی تو مکالمه با 'by the way' مطرح کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 16,
+      "front": {
+        "word": "so",
+        "pronunciation": "/soʊ/"
+      },
+      "back": {
+        "translation": "خب/بنابراین",
+        "meaning": "برای شروع یا اتصال ایده‌ها.",
+        "example": "So, I decided to study abroad last year.",
+        "tip": "یه داستان کوتاه با 'so' شروع کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 17,
+      "front": {
+        "word": "anyway",
+        "pronunciation": "/ˈen.i.weɪ/"
+      },
+      "back": {
+        "translation": "به هر حال",
+        "meaning": "برای تغییر موضوع یا جمع‌بندی.",
+        "example": "Anyway, let’s talk about something else.",
+        "tip": "یه مکالمه رو با 'anyway' به موضوع جدید ببر."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 18,
+      "front": {
+        "word": "as you know",
+        "pronunciation": "/æz juː noʊ/"
+      },
+      "back": {
+        "translation": "همون‌طور که می‌دونی",
+        "meaning": "برای اشاره به چیزی که مخاطب احتمالاً می‌دونه.",
+        "example": "As you know, pollution is a big issue nowadays.",
+        "tip": "یه حقیقت عمومی با 'as you know' بگو."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 19,
+      "front": {
+        "word": "let me think",
+        "pronunciation": "/let miː θɪŋk/"
+      },
+      "back": {
+        "translation": "بذار فکر کنم",
+        "meaning": "برای خریدن زمان برای فکر کردن.",
+        "example": "Let me think… maybe two years ago?",
+        "tip": "یه سؤال سخت آیلتس رو با 'let me think' جواب بده."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 20,
+      "front": {
+        "word": "you see",
+        "pronunciation": "/juː siː/"
+      },
+      "back": {
+        "translation": "می‌بینی",
+        "meaning": "برای توضیح یا جلب توجه مخاطب.",
+        "example": "You see, I’m not really into sports.",
+        "tip": "یه چیزی که دوست نداری با 'you see' توضیح بده."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 21,
+      "front": {
+        "word": "on the other hand",
+        "pronunciation": "/ɒn ðə ˈʌð.ər hænd/"
+      },
+      "back": {
+        "translation": "از طرف دیگه",
+        "meaning": "برای ارائه دیدگاه مخالف یا متضاد.",
+        "example": "On the other hand, living in a village is peaceful.",
+        "tip": "یه موضوع (مثل شهر vs روستا) رو با 'on the other hand' مقایسه کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 22,
+      "front": {
+        "word": "in other words",
+        "pronunciation": "/ɪn ˈʌð.ər wɜːrdz/"
+      },
+      "back": {
+        "translation": "به عبارت دیگه",
+        "meaning": "برای بازگو کردن یه ایده به شکل دیگه.",
+        "example": "In other words, we need to save more money.",
+        "tip": "یه ایده رو با 'in other words' بازگو کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 23,
+      "front": {
+        "word": "at the end of the day",
+        "pronunciation": "/æt ðə end əv ðə deɪ/"
+      },
+      "back": {
+        "translation": "آخرش",
+        "meaning": "برای جمع‌بندی یا تأکید روی نکته اصلی.",
+        "example": "At the end of the day, family is what matters.",
+        "tip": "یه بحث رو با 'at the end of the day' جمع‌بندی کن."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 24,
+      "front": {
+        "word": "it depends",
+        "pronunciation": "/ɪt dɪˈpendz/"
+      },
+      "back": {
+        "translation": "بستگی داره",
+        "meaning": "برای نشان دادن اینکه جواب قطعی نیست.",
+        "example": "It depends on whether I have enough time.",
+        "tip": "یه سؤال آیلتس رو با 'it depends' جواب بده."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 25,
+      "front": {
+        "word": "I’d say",
+        "pronunciation": "/aɪd seɪ/"
+      },
+      "back": {
+        "translation": "می‌تونم بگم",
+        "meaning": "برای ارائه نظر با کمی تردید.",
+        "example": "I’d say technology has changed our lives a lot.",
+        "tip": "یه نظر درباره یه موضوع مدرن با 'I’d say' بگو."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 26,
+      "front": {
+        "word": "what I mean is",
+        "pronunciation": "/wɒt aɪ miːn ɪz/"
+      },
+      "back": {
+        "translation": "منظورم اینه که",
+        "meaning": "برای توضیح دقیق‌تر یه ایده.",
+        "example": "What I mean is, we should focus on education.",
+        "tip": "یه ایده مبهم رو با 'what I mean is' شفاف کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 27,
+      "front": {
+        "word": "for instance",
+        "pronunciation": "/fər ˈɪn.stəns/"
+      },
+      "back": {
+        "translation": "مثلاً",
+        "meaning": "برای آوردن مثال.",
+        "example": "For instance, I enjoy hiking on weekends.",
+        "tip": "یه مثال درباره سرگرمی‌ت با 'for instance' بگو."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 28,
+      "front": {
+        "word": "as a matter of fact",
+        "pronunciation": "/æz ə ˈmæt.ər əv fækt/"
+      },
+      "back": {
+        "translation": "در واقع",
+        "meaning": "برای تأکید روی یه حقیقت یا اطلاعات جدید.",
+        "example": "As a matter of fact, I’ve been there before.",
+        "tip": "یه حقیقت جالب درباره خودت با این عبارت بگو."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 29,
+      "front": {
+        "word": "let’s say",
+        "pronunciation": "/lets seɪ/"
+      },
+      "back": {
+        "translation": "فرض کنیم",
+        "meaning": "برای ارائه یه مثال فرضی.",
+        "example": "Let’s say you have a week off, where would you go?",
+        "tip": "یه سناریوی فرضی با 'let’s say' بساز."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 30,
+      "front": {
+        "word": "pretty much",
+        "pronunciation": "/ˈprɪt.i mʌtʃ/"
+      },
+      "back": {
+        "translation": "تقریباً",
+        "meaning": "برای نشان دادن چیزی که تقریباً کامل یا درست است.",
+        "example": "I’m pretty much done with my studies.",
+        "tip": "یه کار تقریباً تموم‌شده رو با 'pretty much' توصیف کن."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 31,
+      "front": {
+        "word": "from my perspective",
+        "pronunciation": "/frəm maɪ pərˈspek.tɪv/"
+      },
+      "back": {
+        "translation": "از دیدگاه من",
+        "meaning": "برای بیان نظر شخصی در بحث‌های پیچیده.",
+        "example": "From my perspective, working remotely is better.",
+        "tip": "یه موضوع کاری رو با 'from my perspective' تحلیل کن."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 32,
+      "front": {
+        "word": "to some extent",
+        "pronunciation": "/tə sʌm ɪkˈstent/"
+      },
+      "back": {
+        "translation": "تا حدی",
+        "meaning": "برای نشان دادن توافق نسبی.",
+        "example": "To some extent, I agree with that idea.",
+        "tip": "یه نظر رو با 'to some extent' نقد کن."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 33,
+      "front": {
+        "word": "absolutely",
+        "pronunciation": "/ˈæb.sə.luːt.li/"
+      },
+      "back": {
+        "translation": "کاملاً",
+        "meaning": "برای تأکید قوی روی توافق یا تأیید.",
+        "example": "Absolutely, I think it’s a great plan.",
+        "tip": "با 'absolutely' به یه ایده تو خانوادتون موافقت کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 34,
+      "front": {
+        "word": "definitely",
+        "pronunciation": "/ˈdef.ɪ.nət.li/"
+      },
+      "back": {
+        "translation": "قطعاً",
+        "meaning": "برای تأکید روی اطمینان یا توافق.",
+        "example": "Definitely, learning English is useful.",
+        "tip": "یه حقیقت بدیهی رو با 'definitely' تأیید کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 35,
+      "front": {
+        "word": "not really",
+        "pronunciation": "/nɒt ˈrɪə.li/"
+      },
+      "back": {
+        "translation": "نه واقعاً",
+        "meaning": "برای مخالفت ملایم یا رد چیزی.",
+        "example": "Not really, I don’t like spicy food.",
+        "tip": "یه چیز که دوست نداری رو با 'not really' رد کن."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 36,
+      "front": {
+        "word": "that’s right",
+        "pronunciation": "/ðæts raɪt/"
+      },
+      "back": {
+        "translation": "درسته",
+        "meaning": "برای تأیید یا موافقت با چیزی.",
+        "example": "That’s right, I grew up in a small town.",
+        "tip": "با 'that’s right' به یه گفته یکی از اعضای خانواده موافقت کن."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 37,
+      "front": {
+        "word": "I suppose",
+        "pronunciation": "/aɪ səˈpoʊz/"
+      },
+      "back": {
+        "translation": "فکر کنم",
+        "meaning": "برای بیان نظر با تردید یا حدس.",
+        "example": "I suppose it’s a good idea to save money.",
+        "tip": "یه ایده رو با 'I suppose' با تردید تأیید کن."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 38,
+      "front": {
+        "word": "exactly",
+        "pronunciation": "/ɪgˈzækt.li/"
+      },
+      "back": {
+        "translation": "دقیقاً",
+        "meaning": "برای موافقت قوی یا تأیید کامل.",
+        "example": "Exactly, that’s what I was thinking!",
+        "tip": "با 'exactly' به یه نظر یکی تو خانواده موافقت قوی نشون بده."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 39,
+      "front": {
+        "word": "in a way",
+        "pronunciation": "/ɪn ə weɪ/"
+      },
+      "back": {
+        "translation": "به نوعی",
+        "meaning": "برای بیان یه دیدگاه نسبی یا غیرقطعی.",
+        "example": "In a way, social media connects people.",
+        "tip": "یه موضوع دوپهلو رو با 'in a way' تحلیل کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 40,
+      "front": {
+        "word": "to put it simply",
+        "pronunciation": "/tə pʊt ɪt ˈsɪm.pli/"
+      },
+      "back": {
+        "translation": "به ساده بگم",
+        "meaning": "برای ساده‌سازی یه ایده پیچیده.",
+        "example": "To put it simply, we need more resources.",
+        "tip": "یه موضوع پیچیده (مثل محیط زیست) رو با 'to put it simply' خلاصه کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 41,
+      "front": {
+        "word": "more or less",
+        "pronunciation": "/mɔːr ər les/"
+      },
+      "back": {
+        "translation": "کم و بیش",
+        "meaning": "برای نشان دادن تقریبی بودن چیزی.",
+        "example": "It’s more or less the same as last year.",
+        "tip": "یه مقایسه تقریبی با 'more or less' انجام بده."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 42,
+      "front": {
+        "word": "as I was saying",
+        "pronunciation": "/æz aɪ wəz ˈseɪ.ɪŋ/"
+      },
+      "back": {
+        "translation": "همون‌طور که می‌گفتم",
+        "meaning": "برای برگشتن به موضوع قبلی بعد از انحراف.",
+        "example": "As I was saying, I prefer small groups.",
+        "tip": "یه مکالمه منحرف‌شده رو با 'as I was saying' به موضوع اصلی برگردون."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 43,
+      "front": {
+        "word": "on top of that",
+        "pronunciation": "/ɒn tɒp əv ðæt/"
+      },
+      "back": {
+        "translation": "علاوه بر اون",
+        "meaning": "برای اضافه کردن یه نکته یا مزیت دیگه.",
+        "example": "On top of that, it’s really affordable.",
+        "tip": "یه چیز خوب رو با 'on top of that' با یه مزیت دیگه توصیف کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 44,
+      "front": {
+        "word": "I guess",
+        "pronunciation": "/aɪ ges/"
+      },
+      "back": {
+        "translation": "فکر کنم",
+        "meaning": "برای بیان نظر با تردید یا غیرقطعی.",
+        "example": "I guess it’s not a bad place to live.",
+        "tip": "یه نظر غیرقطعی درباره یه مکان با 'I guess' بگو."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 45,
+      "front": {
+        "word": "fair enough",
+        "pronunciation": "/fer ɪˈnʌf/"
+      },
+      "back": {
+        "translation": "منصفانه‌ست",
+        "meaning": "برای پذیرش نظر یا دیدگاه کسی.",
+        "example": "Fair enough, I see your point.",
+        "tip": "با 'fair enough' با یه نظر یکی از اعضای خانواده موافقت کن."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 46,
+      "front": {
+        "word": "to tell you the truth",
+        "pronunciation": "/tə tel juː ðə truːθ/"
+      },
+      "back": {
+        "translation": "راستش رو بخوای",
+        "meaning": "برای بیان یه حقیقت صادقانه.",
+        "example": "To tell you the truth, I’m a bit nervous.",
+        "tip": "یه حس واقعی (مثل استرس) رو با 'to tell you the truth' بگو."
+      },
+      "category": "Expression"
+    },
+    {
+      "id": 47,
+      "front": {
+        "word": "having said that",
+        "pronunciation": "/ˈhæv.ɪŋ sed ðæt/"
+      },
+      "back": {
+        "translation": "با این حال",
+        "meaning": "برای معرفی یه نکته متضاد با چیزی که گفتی.",
+        "example": "Having said that, there are some drawbacks.",
+        "tip": "یه مزیت و یه عیب رو با 'having said that' مقایسه کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 48,
+      "front": {
+        "word": "no doubt",
+        "pronunciation": "/noʊ daʊt/"
+      },
+      "back": {
+        "translation": "بدون شک",
+        "meaning": "برای تأکید روی چیزی که مطمئنی.",
+        "example": "No doubt, technology has its benefits.",
+        "tip": "یه حقیقت مطمئن رو با 'no doubt' تأیید کن."
+      },
+      "category": "Discourse Marker"
+    },
+    {
+      "id": 49,
+      "front": {
+        "word": "come to think of it",
+        "pronunciation": "/kʌm tə θɪŋk əv ɪt/"
+      },
+      "back": {
+        "translation": "حالا که فکرش رو می‌کنم",
+        "meaning": "برای اشاره به چیزی که تازه یادت اومده.",
+        "example": "Come to think of it, I’ve never been there.",
+        "tip": "یه خاطره یا فکر ناگهانی رو با 'come to think of it' بگو."
+      },
+      "category": "Filler"
+    },
+    {
+      "id": 50,
+      "front": {
+        "word": "all in all",
+        "pronunciation": "/ɔːl ɪn ɔːl/"
+      },
+      "back": {
+        "translation": "در کل",
+        "meaning": "برای جمع‌بندی نهایی یه موضوع.",
+        "example": "All in all, it was a great experience.",
+        "tip": "یه تجربه (مثل سفر) رو با 'all in all' جمع‌بندی کن."
+      },
+      "category": "Expression"
+    }
+  ]
