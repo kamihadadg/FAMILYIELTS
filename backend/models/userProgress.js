@@ -34,10 +34,10 @@ const UserProgress = {
     easiness = Math.max(1.3, easiness + (0.1 - (3 - score) * (0.08 + (3 - score) * 0.02)));
     repetitions = score < 1 ? 0 : repetitions + 1;
 
-    if (repetitions === 0) {
-      interval = 1;
-    } else if (repetitions === 1) {
-      interval = 6;
+    if (repetitions === 1) {
+      interval = 1; // روز اول
+    } else if (repetitions === 2) {
+      interval = 6; // روز ششم
     } else {
       interval = Math.round(interval * easiness);
     }

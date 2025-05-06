@@ -6,18 +6,19 @@ import '../styles/FlashcardList.css';
 const FlashcardList = () => {
   const [flashcards, setFlashcards] = useState([]);
 
+  const fetchDueFlashcards = async () => {
+    try {
+      const response = await axios.get(`${import.meta.env.VITE_API_URL}/progress/due`, {
+        headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
+      });
+      console.log('Fetched flashcards:', response.data);
+      setFlashcards(response.data);
+    } catch (error) {
+      console.error('Error fetching due flashcards:', error);
+    }
+  };
+
   useEffect(() => {
-    const fetchDueFlashcards = async () => {
-      try {
-        const response = await axios.get(`${import.meta.env.VITE_API_URL}/progress/due`, {
-          headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
-        });
-        console.log('Fetched flashcards:', response.data.length);
-        setFlashcards(response.data);
-      } catch (error) {
-        console.error('Error fetching due flashcards:', error);
-      }
-    };
     fetchDueFlashcards();
   }, []);
 
@@ -28,11 +29,12 @@ const FlashcardList = () => {
         { flashcardId, score },
         { headers: { Authorization: `Bearer ${localStorage.getItem('token')}` } }
       );
-      const { nextReviewDate } = response.data;
-      // فقط کارت‌هایی که دیگر آماده مرور نیستند حذف شوند
-      if (new Date(nextReviewDate) > new Date()) {
-        setFlashcards((prev) => prev.filter((card) => card.id !== flashcardId));
-      }
+      console.log('Score response:', response.data);
+
+      // تاخیر کوچک برای اطمینان از به‌روزرسانی Backend
+      setTimeout(async () => {
+        await fetchDueFlashcards();
+      }, 100);
     } catch (error) {
       console.error('Error updating progress:', error);
     }
@@ -76,6 +78,7 @@ const FlashcardList = () => {
             onNext={() => handleNext(index)}
             isFirst={index === 0}
             isLast={index === flashcards.length - 1}
+            onRefresh={fetchDueFlashcards}
           />
         ))}
       </div>

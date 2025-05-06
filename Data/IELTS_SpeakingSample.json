@@ -1,0 +1,11 @@
+[   {"id": 1, "word": "obviously", "translation": "بدیهی است", "example": "Obviously, living in a big city has its challenges.", "category": "Discourse Marker"},
+    {"id": 2, "word": "actually", "translation": "در واقع", "example": "Actually, I prefer working from home.", "category": "Discourse Marker"},
+    {"id": 3, "word": "you know", "translation": "میدونی", "example": "I love traveling, you know, it broadens your mind.", "category": "Filler"},
+    {"id": 4, "word": "like", "translation": "مثل اینکه", "example": "It’s, like, really hard to find a good job these days.", "category": "Filler"},
+    {"id": 5, "word": "basically", "translation": "اساساً", "example": "Basically, I think education should be free.", "category": "Discourse Marker"},
+    {"id": 6, "word": "to be honest", "translation": "راستش رو بخوای", "example": "To be honest, I don’t enjoy crowded places.", "category": "Expression"},
+    {"id": 7, "word": "well", "translation": "خب", "example": "Well, it depends on the situation, doesn’t it?", "category": "Filler"},
+    {"id": 8, "word": "I mean", "translation": "منظورم اینه", "example": "I mean, technology makes life easier, right?", "category": "Discourse Marker"},
+    {"id": 9, "word": "kind of", "translation": "یه جورایی", "example": "I’m kind of interested in learning new languages.", "category": "Filler"},
+    {"id": 10, "word": "sort of", "translation": "تقریباً", "example": "It’s sort of difficult to balance work and family.", "category": "Filler"}
+]

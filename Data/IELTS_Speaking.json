@@ -1,5 +1,4 @@
-[
-    {"id": 1, "word": "obviously", "translation": "بدیهی است", "example": "Obviously, living in a big city has its challenges.", "category": "Discourse Marker"},
+[   {"id": 1, "word": "obviously", "translation": "بدیهی است", "example": "Obviously, living in a big city has its challenges.", "category": "Discourse Marker"},
     {"id": 2, "word": "actually", "translation": "در واقع", "example": "Actually, I prefer working from home.", "category": "Discourse Marker"},
     {"id": 3, "word": "you know", "translation": "میدونی", "example": "I love traveling, you know, it broadens your mind.", "category": "Filler"},
     {"id": 4, "word": "like", "translation": "مثل اینکه", "example": "It’s, like, really hard to find a good job these days.", "category": "Filler"},
