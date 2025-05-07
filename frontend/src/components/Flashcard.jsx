@@ -32,7 +32,8 @@ const Flashcard = ({ flashcard, onArchive, onKeep, onCorrect, onIncorrect, isQui
       <div className={`flashcard ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
         <div className="flashcard-inner">
           <div className="flashcard-front">
-            <h2>{flashcard.word}</h2>
+            <h2>No: {flashcard.id}</h2>           
+            <h1>{flashcard.word}</h1>
             <p>{flashcard.pronunciation}</p>
           </div>
           <div className="flashcard-back">
@@ -49,11 +50,11 @@ const Flashcard = ({ flashcard, onArchive, onKeep, onCorrect, onIncorrect, isQui
         <div className="score-buttons">
           {isQuizMode ? (
             <>
-              <button onClick={() => onCorrect(flashcard.id)} className="score-button correct">
+              {/* <button onClick={() => onCorrect(flashcard.id)} className="score-button correct">
                 درست
-              </button>
+              </button> */}
               <button onClick={() => onIncorrect(flashcard.id)} className="score-button incorrect">
-                غلط
+                اشتباه (یاد نگرفتم)
               </button>
             </>
           ) : (
@@ -61,9 +62,9 @@ const Flashcard = ({ flashcard, onArchive, onKeep, onCorrect, onIncorrect, isQui
               <button onClick={() => onArchive(flashcard.id)} className="score-button archive">
                 بایگانی (یاد گرفتم)
               </button>
-              <button onClick={() => onKeep(flashcard.id)} className="score-button keep">
+              {/* <button onClick={() => onKeep(flashcard.id)} className="score-button keep">
                 باقی بماند
-              </button>
+              </button> */}
             </>
           )}
         </div>

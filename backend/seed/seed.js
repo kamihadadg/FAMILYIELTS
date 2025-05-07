@@ -1,5 +1,5 @@
 const { Pool } = require('pg');
-const flashcards = require('../../Data/IELTS_Speaking.json');
+const flashcards = require('../../Data/504FullGrok.json');
 
 // تنظیمات دیتابیس مستقیماً در فایل
 const pool = new Pool({
@@ -19,9 +19,19 @@ async function seedFlashcards() {
 
     for (const card of flashcards) {
       await pool.query(
-        'INSERT INTO flashcards (word, translation, example, category) VALUES ($1, $2, $3, $4) ON CONFLICT DO NOTHING',
-        [card.word, card.translation, card.example, card.category]
+        'INSERT INTO flashcards (id, word, pronunciation, translation, meaning, example, category, tip) VALUES ($1, $2, $3, $4, $5, $6, $7, $8) ON CONFLICT DO NOTHING',
+        [
+          card.id,
+          card.front.word,
+          '',
+          card.back.translation,
+          card.back.meaning,
+          card.back.example,
+          card.category,
+          card.back.tip
+        ]
       );
+      console.log('Flashcard inserted:', card.front.word);
     }
     console.log('Flashcards seeded successfully');
   } catch (error) {

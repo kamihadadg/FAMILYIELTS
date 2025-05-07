@@ -4,6 +4,7 @@ const UserProgress = {
   // مقداردهی اولیه
   async initializeProgress(userId) {
     try {
+      console.log(`Initializing progress for user ${userId}`);
       const existingProgress = await pool.query(
         'SELECT COUNT(*) FROM user_progress WHERE user_id = $1',
         [userId]
